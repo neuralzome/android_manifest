@@ -181,4 +181,13 @@
   <!-- Tools -->
   <project path="lineage/contributors-cloud-generator" name="LineageOS/contributors-cloud-generator" groups="tools" revision="master" />
   <project path="lineage/scripts" name="LineageOS/scripts" groups="tools" revision="master" />
+
+  <!-- Flo -->
+  <project path="vendor/flomobility" name="flomobility/android_vendor_flomobility" />
+
+  <!-- Xiaomi-SDM845 -->
+  <project path="device/xiaomi/sdm845-common" name="flomobility/android_device_xiaomi_sdm845-common" />
+  <project path="device/xiaomi/beryllium" name="flomobility/android_device_xiaomi_beryllium" />
+  <project path="kernel/xiaomi/sdm845" name="flomobility/android_kernel_xiaomi_sdm845" />
+  <project path="vendor/xiaomi" name="flomobility/proprietary_vendor_xiaomi" />
 </manifest>
